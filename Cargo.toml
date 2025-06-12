@@ -147,3 +147,5 @@ async-trait = "0.1.88"
 tokio = { version = "1.45.1" }
 
 [patch.crates-io]
+alloy-trie = { git = "https://github.com/alloy-rs/trie", branch = "alexey/nybbles-uint" }
+nybbles = { git = "https://github.com/alloy-rs/nybbles", branch = "alexey/uint-repr" }
