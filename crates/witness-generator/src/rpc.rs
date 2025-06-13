@@ -19,6 +19,7 @@ pub struct RPCBlocksAndWitnessesBuilder {
     url: String,
     header_map: HeaderMap,
     last_n_blocks: Option<usize>,
+    specific_block: Option<u64>,
 }
 
 impl RPCBlocksAndWitnessesBuilder {
@@ -44,9 +45,15 @@ impl RPCBlocksAndWitnessesBuilder {
         Ok(self)
     }
 
-    /// Sets the numbe of last blocks to fetch.
+    /// Sets the number of last blocks to fetch.
     pub fn last_n_blocks(mut self, n: usize) -> Self {
         self.last_n_blocks = Some(n);
+        self
+    }
+
+    /// Sets a specific block number to fetch.
+    pub fn specific_block(mut self, block_num: u64) -> Self {
+        self.specific_block = Some(block_num);
         self
     }
 
@@ -59,6 +66,7 @@ impl RPCBlocksAndWitnessesBuilder {
         Ok(RPCBlocksAndWitnesses {
             client,
             last_n_blocks: self.last_n_blocks.unwrap_or(1),
+            specific_block: self.specific_block,
         })
     }
 }
@@ -68,11 +76,18 @@ impl RPCBlocksAndWitnessesBuilder {
 pub struct RPCBlocksAndWitnesses {
     client: HttpClient,
     last_n_blocks: usize,
+    specific_block: Option<u64>,
 }
 
 #[async_trait]
 impl WitnessGenerator for RPCBlocksAndWitnesses {
     async fn generate(&self) -> Result<Vec<BlocksAndWitnesses>> {
+        // Handle specific block case
+        if let Some(block_num) = self.specific_block {
+            return self.fetch_specific_block(block_num).await;
+        }
+
+        // Handle last_n_blocks case
         if self.last_n_blocks == 0 {
             return Ok(vec![]);
         }
@@ -136,6 +151,40 @@ impl WitnessGenerator for RPCBlocksAndWitnesses {
                 network: ForkSpec::Prague,
             })
         }
+
+        Ok(blocks_and_witnesses)
+    }
+}
+
+impl RPCBlocksAndWitnesses {
+    /// Fetches a specific block and its execution witness.
+    async fn fetch_specific_block(&self, block_num: u64) -> Result<Vec<BlocksAndWitnesses>> {
+        // Fetch the execution witness for the specific block
+        let witness = self
+            .client
+            .debug_execution_witness(BlockNumberOrTag::Number(block_num))
+            .await?;
+
+        // Fetch the block details
+        let block = EthApiClient::<Transaction, Block<TransactionSigned>, Receipt, Header>::block_by_number(
+            &self.client,
+            BlockNumberOrTag::Number(block_num),
+            true,
+        )
+        .await?
+        .ok_or(anyhow::anyhow!("No block found for number {}", block_num))?;
+
+        let blocks_and_witnesses = vec![BlocksAndWitnesses {
+            name: format!("rpc_block_{}", block_num),
+            blocks_and_witnesses: vec![StatelessInput {
+                block: block.into_consensus(),
+                witness,
+            }],
+            // FIXME: this should be dynamic based on the block, but might be useful to see if the stateless
+            // reth crate can help with this probably avoiding the ForkSpec enum and using the existing
+            // HardForks enum.
+            network: ForkSpec::Prague,
+        }];
 
         Ok(blocks_and_witnesses)
     }
