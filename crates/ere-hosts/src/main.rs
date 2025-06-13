@@ -64,9 +64,13 @@ enum SourceCommand {
         directory_path: PathBuf,
     },
     Rpc {
-        /// Number of last blocks to pull from mainnet (mandatory)
-        #[arg(long)]
-        last_n_blocks: usize,
+        /// Number of last blocks to pull from mainnet (used when --block is not specified)
+        #[arg(long, conflicts_with = "block")]
+        last_n_blocks: Option<usize>,
+
+        /// Specific block number to fetch (alternative to last_n_blocks)
+        #[arg(long, conflicts_with = "last_n_blocks")]
+        block: Option<u64>,
 
         /// RPC URL to use (mandatory)
         #[arg(long)]
@@ -122,9 +126,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
         SourceCommand::Rpc {
             last_n_blocks,
+            block,
             rpc_url,
             rpc_header,
         } => {
+            // Validate that either last_n_blocks or block is provided
+            if last_n_blocks.is_none() && block.is_none() {
+                return Err("Either --last-n-blocks or --block must be specified".into());
+            }
+
             let parsed_headers: Vec<(String, String)> = rpc_header
                 .unwrap_or_default()
                 .into_iter()
@@ -137,12 +147,17 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                         })
                 })
                 .collect::<Result<_, _>>()?;
-            Box::new(
-                RPCBlocksAndWitnessesBuilder::new(rpc_url)
-                    .with_headers(parsed_headers)?
-                    .last_n_blocks(last_n_blocks)
-                    .build()?,
-            )
+            
+            let mut builder = RPCBlocksAndWitnessesBuilder::new(rpc_url)
+                .with_headers(parsed_headers)?;
+            
+            if let Some(block_num) = block {
+                builder = builder.specific_block(block_num);
+            } else if let Some(n_blocks) = last_n_blocks {
+                builder = builder.last_n_blocks(n_blocks);
+            }
+            
+            Box::new(builder.build()?)
         }
     };
 
