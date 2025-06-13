@@ -2958,7 +2958,7 @@ dependencies = [
 [[package]]
 name = "ef-tests"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -8861,7 +8861,7 @@ checksum = "95325155c684b1c89f7765e30bc1c42e4a6da51ca513615660cb8a62ef9a88e3"
 [[package]]
 name = "reth-basic-payload-builder"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -8885,7 +8885,7 @@ dependencies = [
 [[package]]
 name = "reth-chain-state"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -8916,7 +8916,7 @@ dependencies = [
 [[package]]
 name = "reth-chainspec"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-chains",
  "alloy-consensus 1.0.9",
@@ -8936,7 +8936,7 @@ dependencies = [
 [[package]]
 name = "reth-cli-util"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -8953,7 +8953,7 @@ dependencies = [
 [[package]]
 name = "reth-codecs"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -8973,7 +8973,7 @@ dependencies = [
 [[package]]
 name = "reth-codecs-derive"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "convert_case 0.7.1",
  "proc-macro2",
@@ -8984,7 +8984,7 @@ dependencies = [
 [[package]]
 name = "reth-config"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "eyre",
  "humantime-serde",
@@ -8999,7 +8999,7 @@ dependencies = [
 [[package]]
 name = "reth-consensus"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-primitives",
@@ -9012,7 +9012,7 @@ dependencies = [
 [[package]]
 name = "reth-consensus-common"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9024,7 +9024,7 @@ dependencies = [
 [[package]]
 name = "reth-db"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "derive_more 2.0.1",
@@ -9050,7 +9050,7 @@ dependencies = [
 [[package]]
 name = "reth-db-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-genesis",
@@ -9078,7 +9078,7 @@ dependencies = [
 [[package]]
 name = "reth-db-common"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-genesis",
@@ -9107,7 +9107,7 @@ dependencies = [
 [[package]]
 name = "reth-db-models"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -9122,7 +9122,7 @@ dependencies = [
 [[package]]
 name = "reth-discv4"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9148,7 +9148,7 @@ dependencies = [
 [[package]]
 name = "reth-discv5"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9172,7 +9172,7 @@ dependencies = [
 [[package]]
 name = "reth-dns-discovery"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "data-encoding",
@@ -9196,7 +9196,7 @@ dependencies = [
 [[package]]
 name = "reth-ecies"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "aes",
  "alloy-primitives",
@@ -9227,7 +9227,7 @@ dependencies = [
 [[package]]
 name = "reth-engine-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9252,7 +9252,7 @@ dependencies = [
 [[package]]
 name = "reth-errors"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "reth-consensus",
  "reth-execution-errors",
@@ -9263,7 +9263,7 @@ dependencies = [
 [[package]]
 name = "reth-eth-wire"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-chains",
  "alloy-primitives",
@@ -9291,7 +9291,7 @@ dependencies = [
 [[package]]
 name = "reth-eth-wire-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-chains",
  "alloy-consensus 1.0.9",
@@ -9312,7 +9312,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-consensus"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9328,7 +9328,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-engine-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -9346,7 +9346,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-forks"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eip2124",
  "alloy-hardforks",
@@ -9359,7 +9359,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9377,7 +9377,7 @@ dependencies = [
 [[package]]
 name = "reth-etl"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "rayon",
  "reth-db-api",
@@ -9387,7 +9387,7 @@ dependencies = [
 [[package]]
 name = "reth-evm"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9408,7 +9408,7 @@ dependencies = [
 [[package]]
 name = "reth-evm-ethereum"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9427,7 +9427,7 @@ dependencies = [
 [[package]]
 name = "reth-execution-errors"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-evm",
  "alloy-primitives",
@@ -9440,7 +9440,7 @@ dependencies = [
 [[package]]
 name = "reth-execution-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9458,7 +9458,7 @@ dependencies = [
 [[package]]
 name = "reth-fs-util"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "serde",
  "serde_json",
@@ -9468,7 +9468,7 @@ dependencies = [
 [[package]]
 name = "reth-libmdbx"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "bitflags 2.9.1",
  "byteorder",
@@ -9485,7 +9485,7 @@ dependencies = [
 [[package]]
 name = "reth-mdbx-sys"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "bindgen",
  "cc",
@@ -9494,7 +9494,7 @@ dependencies = [
 [[package]]
 name = "reth-metrics"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "futures",
  "metrics 0.24.2",
@@ -9506,7 +9506,7 @@ dependencies = [
 [[package]]
 name = "reth-net-banlist"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
 ]
@@ -9514,7 +9514,7 @@ dependencies = [
 [[package]]
 name = "reth-net-nat"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "futures-util",
  "if-addrs",
@@ -9528,7 +9528,7 @@ dependencies = [
 [[package]]
 name = "reth-network"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9583,7 +9583,7 @@ dependencies = [
 [[package]]
 name = "reth-network-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "alloy-rpc-types-admin",
@@ -9606,7 +9606,7 @@ dependencies = [
 [[package]]
 name = "reth-network-p2p"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9628,7 +9628,7 @@ dependencies = [
 [[package]]
 name = "reth-network-peers"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -9643,7 +9643,7 @@ dependencies = [
 [[package]]
 name = "reth-network-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eip2124",
  "humantime-serde",
@@ -9657,7 +9657,7 @@ dependencies = [
 [[package]]
 name = "reth-nippy-jar"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "anyhow",
  "bincode",
@@ -9674,7 +9674,7 @@ dependencies = [
 [[package]]
 name = "reth-node-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-rpc-types-engine",
  "eyre",
@@ -9698,7 +9698,7 @@ dependencies = [
 [[package]]
 name = "reth-node-core"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9749,7 +9749,7 @@ dependencies = [
 [[package]]
 name = "reth-node-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "reth-chainspec",
  "reth-db-api",
@@ -9762,7 +9762,7 @@ dependencies = [
 [[package]]
 name = "reth-optimism-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9781,7 +9781,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-builder"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-rpc-types",
@@ -9801,7 +9801,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-builder-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "pin-project",
  "reth-payload-primitives",
@@ -9813,7 +9813,7 @@ dependencies = [
 [[package]]
 name = "reth-payload-primitives"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -9832,7 +9832,7 @@ dependencies = [
 [[package]]
 name = "reth-primitives-traits"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9864,7 +9864,7 @@ dependencies = [
 [[package]]
 name = "reth-provider"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -9909,7 +9909,7 @@ dependencies = [
 [[package]]
 name = "reth-prune-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -9923,7 +9923,7 @@ dependencies = [
 [[package]]
 name = "reth-revm"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "reth-primitives-traits",
@@ -9936,7 +9936,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-genesis",
@@ -9964,7 +9964,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-eth-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-dyn-abi",
@@ -10007,7 +10007,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-eth-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -10049,7 +10049,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-server-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -10065,7 +10065,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-types-compat"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-network 1.0.9",
@@ -10087,7 +10087,7 @@ dependencies = [
 [[package]]
 name = "reth-stages-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -10101,7 +10101,7 @@ dependencies = [
 [[package]]
 name = "reth-stateless"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-primitives",
@@ -10128,7 +10128,7 @@ dependencies = [
 [[package]]
 name = "reth-static-file-types"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "derive_more 2.0.1",
@@ -10139,7 +10139,7 @@ dependencies = [
 [[package]]
 name = "reth-storage-api"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -10163,7 +10163,7 @@ dependencies = [
 [[package]]
 name = "reth-storage-errors"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-eips 1.0.9",
  "alloy-primitives",
@@ -10179,7 +10179,7 @@ dependencies = [
 [[package]]
 name = "reth-tasks"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "auto_impl",
  "dyn-clone",
@@ -10197,7 +10197,7 @@ dependencies = [
 [[package]]
 name = "reth-tokio-util"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "tokio",
  "tokio-stream",
@@ -10207,7 +10207,7 @@ dependencies = [
 [[package]]
 name = "reth-tracing"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "clap",
  "eyre",
@@ -10222,7 +10222,7 @@ dependencies = [
 [[package]]
 name = "reth-transaction-pool"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -10260,7 +10260,7 @@ dependencies = [
 [[package]]
 name = "reth-trie"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-eips 1.0.9",
@@ -10285,7 +10285,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-common"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-consensus 1.0.9",
  "alloy-primitives",
@@ -10311,7 +10311,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-db"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "reth-db-api",
@@ -10324,7 +10324,7 @@ dependencies = [
 [[package]]
 name = "reth-trie-sparse"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -10340,7 +10340,7 @@ dependencies = [
 [[package]]
 name = "reth-zstd-compressors"
 version = "1.4.8"
-source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#30dc2fb58ca18440915d15ebe82964cd66d60ebc"
+source = "git+https://github.com/paradigmxyz/reth?branch=alexey%2Fzkevm-benchmark-workload-repo#dd543bfb581085335f1d2bfd2b93c4ce576191f9"
 dependencies = [
  "zstd",
 ]
