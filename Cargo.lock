@@ -12386,6 +12386,7 @@ name = "succinct-guest"
 version = "0.1.0"
 dependencies = [
  "alloy-primitives",
+ "reth-chainspec",
  "reth-ethereum-primitives",
  "reth-evm-ethereum",
  "reth-primitives-traits",
