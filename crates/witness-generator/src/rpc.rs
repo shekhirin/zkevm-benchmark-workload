@@ -10,7 +10,7 @@ use jsonrpsee::{
 };
 use reth_ethereum_primitives::TransactionSigned;
 use reth_rpc_api::{DebugApiClient, EthApiClient};
-use reth_stateless::{ClientInput, fork_spec::ForkSpec};
+use reth_stateless::{StatelessInput, fork_spec::ForkSpec};
 use std::{cmp::max, str::FromStr};
 
 /// Builder for configuring an RPC client that fetches blocks and witnesses.
@@ -126,7 +126,7 @@ impl WitnessGenerator for RPCBlocksAndWitnesses {
 
             blocks_and_witnesses.push(BlocksAndWitnesses {
                 name: format!("mainnet_block_{}", block_num),
-                blocks_and_witnesses: vec![ClientInput {
+                blocks_and_witnesses: vec![StatelessInput {
                     block: block.into_consensus(),
                     witness,
                 }],

@@ -120,6 +120,7 @@ ere-zisk = { git = "https://github.com/eth-applied-research-group/ere", rev = "5
 # NOTE: We are using a branch of a branch that has not yet been merged into master.
 ef-tests = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }
 reth-ethereum-primitives = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }
+reth-evm-ethereum = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }
 reth-primitives-traits = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }
 reth-stateless = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }
 reth-chainspec = { git = "https://github.com/paradigmxyz/reth", branch = "alexey/kev-zkevm-bench-nibbles" }

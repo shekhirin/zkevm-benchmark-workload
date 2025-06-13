@@ -19,6 +19,8 @@ reth-primitives-traits = { workspace = true, features = [
     "serde",
     "serde-bincode-compat",
 ] }
+reth-evm-ethereum.workspace = true
+reth-chainspec.workspace = true
 alloy-primitives = { workspace = true, default-features = false, features = [
     "map-foldhash",
     "serde",

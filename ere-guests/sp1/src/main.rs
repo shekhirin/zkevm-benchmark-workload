@@ -6,7 +6,8 @@ extern crate alloc;
 
 use alloc::sync::Arc;
 
-use reth_stateless::{ClientInput, fork_spec::ForkSpec, validation::stateless_validation};
+use reth_evm_ethereum::EthEvmConfig;
+use reth_stateless::{StatelessInput, fork_spec::ForkSpec, validation::stateless_validation};
 use tracing_subscriber::fmt;
 
 sp1_zkvm::entrypoint!(main);
@@ -15,13 +16,13 @@ pub fn main() {
     init_tracing_just_like_println();
 
     println!("cycle-tracker-report-start: read_input");
-    let input = sp1_zkvm::io::read::<ClientInput>();
+    let input = sp1_zkvm::io::read::<StatelessInput>();
     let fork_spec = sp1_zkvm::io::read::<ForkSpec>();
     let chain_spec = Arc::new(fork_spec.into());
     println!("cycle-tracker-report-end: read_input");
 
     println!("cycle-tracker-report-start: validation");
-    stateless_validation(input.block, input.witness, chain_spec).unwrap();
+    stateless_validation(input.block, input.witness, chain_spec, EthEvmConfig).unwrap();
     println!("cycle-tracker-report-end: validation");
 }
 
